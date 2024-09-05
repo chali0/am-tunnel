@@ -25,19 +25,19 @@ let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/ansoncloud8/am-tunnel/dev/ipv4.txt', //可参考内容格式 自行搭建。
+	'https://raw.githubusercontent.com/amclubs/am-cf-tunnel/main/ipv4.txt', //可参考内容格式 自行搭建。
 	//'https://raw.githubusercontent.com/ansoncloud8/am-tunnel/dev/ipv6.txt', //IPv6优选内容格式 自行搭建。
 ];
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'icook.tw:443#t.me/AM_CLUBS',//官方优选域名
+	'icook.hk:443#t.me/AM_CLUBS',//官方优选域名
 	//'cloudflare.cfgo.cc:443#关注YouTube频道@AM_CLUB',
 	'visa.com:443#youtube.com/@AM_CLUB'
 ];
 
 let autoaddress = [
-	'icook.tw:443',
+	'icook.hk:443',
 	'cloudflare.cfgo.cc:443',
 	'visa.com:443'
 ];
